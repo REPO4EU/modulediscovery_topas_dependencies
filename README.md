@@ -1,5 +1,7 @@
 # modulediscovery_topas_dependencies
 Docker Container for the R dependencies used for the topas tool of the module discovery pipeline 
+The packages in the env.yml are slightly different then the ones in the environment.yml from TOPAS:
+r-rlang=1.1.0 is used instead of r-rlang 1.0.3 and r-optparse=1.7.3 is added for the wrapper used in the pipeline 
 ## Citation
 TOPAS Sourcecode https://bitbucket.org/sonnhammergroup/topas.git
 
